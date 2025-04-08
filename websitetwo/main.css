@@ -1,0 +1,196 @@
+@font-face {font-family: "KaushanScript-Regular"; src: url(KaushanScript-Regular.otf); font-weight: normal; font-style: normal;} /*Copyright (c) 2011, Pablo Impallari (www.impallari.com|impallari@gmail.com), Copyright (c) 2011, Igino Marini. (www.ikern.com|mail@iginomarini.com) */
+
+body {font-family: Open Sans, arial, sans-serif;
+      font-size: 12px;
+      line-height: 1.5;
+      background-color: oldlace;} /* for the main background */
+h1 {font-family:"KaushanScript-Regular";
+    font-size: 56pt;
+    text-align: center;
+    color: hotpink;
+    background-color: snow;
+    width: 1200px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 25px;} /* for the main headings only */
+h2 {font-family: Open Sans, arial, sans-serif;
+    font-weight: bold;
+    font-size: 20pt;
+    text-align: center;
+    color: lightcoral;
+    background-color: snow;
+    margin: 0;
+    border-radius: 12px;} /* for the section headings */
+th {font-family: Open Sans, arial, sans-serif;
+    font-weight: bold;
+    font-size: 20pt;
+    color: lightcoral;} /* for subheadings on project/etc. pages that are structured using tables */
+img {border-width: 2px;
+     border-style: solid;
+     border-color: dimgray;
+     border-radius: 25px;} /* for images on the main pages */
+img#page {border-width: 5px; 
+          border-style: dotted; 
+          border-color: mistyrose; 
+          border-radius: 25px;
+          margin-left: 75px;
+          margin-top: 25px;} /* for images on individual project pages */
+img#soon {border: none;
+          margin-top: 60px;
+          margin-left: 260px;} /* for the construction image, specifically */
+img#pagetwo {border-width: 5px; 
+             border-style: dotted; 
+             border-color: pink; 
+             border-radius: 25px;
+             margin-left: 75px;
+             margin-top: 25px;} /* for images on individual stitch pages */
+img#pagethree {border-width: 5px; 
+               border-style: dotted; 
+               border-color: deeppink; 
+               border-radius: 25px;
+               margin-left: 75px;
+               margin-top: 25px;} /* for images on individual stash pages */
+table {width: 710px;
+       float: right;
+       border-width: 5px; 
+       border-style: dotted; 
+       border-color: mistyrose; 
+       border-radius: 25px;
+       margin-top: 25px;
+       margin-right: 75px;} /* used to structure and place the text content on individual project pages */
+table#tabletwo {width: 710px;
+                height: 330px;
+                float: right;
+                border-width: 5px; 
+                border-style: dotted; 
+                border-color: pink; 
+                border-radius: 25px;
+                margin-top: 25px;
+                margin-right: 75px;} /* used to structure and place the text content on individual stitch pages */
+table#tablethree {width: 710px;
+                  height: 330px;
+                  float: right;
+                  border-width: 5px; 
+                  border-style: dotted; 
+                  border-color: deeppink; 
+                  border-radius: 25px;
+                  margin-top: 25px;
+                  margin-right: 75px;} /* used to structure and place the text content on individual stash pages */
+a {color: mediumvioletred;
+   font-weight: bold;
+   text-decoration: none;} /* used to format hyperlinks */
+a:hover, a:focus, a:active {color: rosybrown;} /* used to format hyperlinks */
+a#right {float: right;} /* used to move the section hyperlinks to the right side of their boxes on the home page */
+div#wrapper {width: 1200px; 
+             height: 635px; 
+             margin: auto;
+             background-color: snow;
+             border-radius: 50px;} /* used for centre content on home page */
+div#wrapone {width: 1100px; 
+             height: 700px; 
+             margin: auto;
+             padding: 10px; 
+             border-width: 25px; 
+             border-style: dotted; 
+             border-color: mistyrose; 
+             border-radius: 50px;
+             background-color: snow;} /* used for centre content on project page */
+section#pics {padding-left: 50px;
+              padding-top: 10px;} /* used to centre pictures within the box on project/stiches/stash pages */
+div#wraptwo {width: 1100px; 
+             height: 700px; 
+             margin: auto;
+             padding: 10px; 
+             border-width: 25px; 
+             border-style: dotted; 
+             border-color: pink; 
+             border-radius: 50px;
+             background-color: snow;} /* used for centre content on stitches page */
+div#wrapthree {width: 1100px; 
+             height: 700px; 
+             margin: auto;
+             padding: 10px; 
+             border-width: 25px; 
+             border-style: dotted; 
+             border-color: deeppink; 
+             border-radius: 50px;
+             background-color: snow;} /* used for centre content on stash page */
+div#wrapabout {background-color: snow;
+               width: 1200px;
+               height: 800px;
+               margin: auto;
+               margin-top: 10px;
+               margin-bottom: 10px;
+               border-radius: 25px;} /* used for centre content on individual project pages */
+div#wrapaboutog {background-color: snow;
+                 width: 1200px;
+                 height: 400px;
+                 margin: auto;
+                 margin-top: 10px;
+                 margin-bottom: 10px;
+                 border-width: 5px; 
+                 border-style: dotted; 
+                 border-color: palevioletred; 
+                 border-radius: 25px;} /* used for centre content on about page */
+div#wrapabouttwo {background-color: snow;
+                 width: 1200px;
+                 height: 450px;
+                 margin: auto;
+                 margin-top: 10px;
+                 margin-bottom: 10px;
+                 border-radius: 25px;} /* used for centre content on individual stich pages */
+div#wrapaboutthree {background-color: snow;
+                    width: 1200px;
+                    height: 550px;
+                    margin: auto;
+                    margin-top: 10px;
+                    margin-bottom: 10px;
+                    border-radius: 25px;} /* used for centre content on individual stash pages */
+section#one {padding: 10px; 
+             border-width: 25px; 
+             border-style: dotted; 
+             border-color: mistyrose; 
+             border-radius: 50px;
+             width: 500px; 
+             float: left;}  /* used to position project section within the home page */
+section#two {padding: 10px; 
+             border-width: 25px; 
+             border-style: dotted; 
+             border-color: pink; 
+             border-radius: 50px; 
+             width: 500px; 
+             float: right;
+             margin-bottom: 25px;}  /* used to position stitch section within the home page */
+section#three {padding: 10px; 
+               border-width: 25px; 
+               border-style: dotted; 
+               border-color: deeppink; 
+               border-radius: 50px; 
+               width: 500px; 
+               float: right;
+               margin-top: 15px;}   /* used to position stash section within the home page */
+p#main {font-family: Open Sans, arial, sans-serif;
+               font-weight: normal;
+               font-size: 16pt;
+               text-align: left;
+               color: maroon;} /* used to format regular text */
+p#maintwo {font-family: Open Sans, arial, sans-serif;
+           font-weight: normal;
+           font-size: 16pt;
+           text-align: left;
+           color: maroon;
+           padding-left: 15px;} /* used to format regular text on the about page */
+footer {height: 1%;} 
+footer ul {list-style-type: none;
+           background-color: snow;
+           border-width: 5px; 
+           border-style: dotted; 
+           border-color: palevioletred; 
+           border-radius: 50px; 
+           width: 75px;
+           position: absolute;
+           top: 0px;
+           right: 0px;} /* used to format navigation links */
+
+
